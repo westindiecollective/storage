@@ -1,0 +1,234 @@
+<!doctype html>
+
+<html lang="en">
+<head>
+  <meta charset="utf-8" />
+  <title>Naissance du West Indie Collective</title>
+
+  <meta name="description" content="Naissance d'une communauté de créateurs indépendants de jeux vidéo.">
+  <meta name="author" content="Maxime Houlier" />
+
+  <link href="css/viva.css" rel="stylesheet" />
+
+  <script>
+    function playVideo(el) {
+      var el_vid = el.getElementsByTagName("video");
+      el_vid[0].play();
+    }
+
+    function stopVideo(el) {
+      var el_vid = el.getElementsByTagName("video");
+      el_vid[0].pause();
+    }
+  
+    function load() { 
+      var tgpa_el = document.getElementById("tgpa_trailer");
+      tgpa_el.addEventListener("impress:stepenter", function(){ playVideo(tgpa_el) }, false);
+      tgpa_el.addEventListener("impress:stepleave", function(){ stopVideo(tgpa_el) }, false);
+
+      var global_game_jam_el = document.getElementById("global_game_jam_trailer");
+      global_game_jam_el.addEventListener("impress:stepenter", function(){ playVideo(global_game_jam_el) }, false);
+      global_game_jam_el.addEventListener("impress:stepleave", function(){ stopVideo(global_game_jam_el) }, false);
+
+      var stunfest_el = document.getElementById("stunfest_trailer");
+      stunfest_el.addEventListener("impress:stepenter", function(){ playVideo(stunfest_el) }, false);
+      stunfest_el.addEventListener("impress:stepleave", function(){ stopVideo(stunfest_el) }, false);
+
+      var therush_el = document.getElementById("the_rush_trailer");
+      therush_el.addEventListener("impress:stepenter", function(){ playVideo(therush_el) }, false);
+      therush_el.addEventListener("impress:stepleave", function(){ stopVideo(therush_el) }, false);
+    } 
+ 
+    document.addEventListener("DOMContentLoaded", load, false);
+  </script>
+  
+
+</head>
+
+<body class="impress-not-supported">
+
+<div class="fallback-message">
+  <p>Your browser <b>doesn't support all the features required</b>, so you are presented with a simplified version of this presentation.</p>
+  <p>For the best experience please use the latest <b>Chrome</b>, <b>Firefox</b> or <b>Safari</b> web browser.</p>
+</div>
+
+<div id="impress">
+  <div class="step" id="home" data-x="0" data-y="0">
+    <img src="img/wic_logo_lagoon_v2.png" />
+    <h1>"Naissance d'une communauté de créateurs indépendants de Jeux Vidéo."</h1>
+  </div>
+
+  <div class="step" id="jv_consoles" data-x="0" data-y="0" data-z="3000">
+    <h1>Les Jeux Vidéo sur Consoles et PC</h1>
+    <img src="img/jv_consoles.png" />
+  </div>
+
+  <div class="step" id="jv_handhelds" data-x="1600" data-y="1500" data-z="3500" data-rotate="90">
+    <h1>Les Jeux Vidéo sur consoles portables </h1>
+    <img src="img/jv_handhelds.png" />
+  </div>
+
+  <div class="step" id="jv_mobiles" data-x="0" data-y="3000" data-z="4000" data-rotate="180">
+    <h1>Les Jeux Vidéo sur mobiles et tablettes </h1>
+    <img src="img/jv_mobiles.png" />
+  </div>
+
+  <div class="step" id="jv_facebook" data-x="-1600" data-y="1500" data-z="4500" data-rotate="270">
+    <h1>Les Jeux Vidéo en ligne</h1>
+    <img src="img/jv_online.png" />
+  </div>
+
+  <div class="step" id="industry_publishers" data-x="0" data-y="0" data-z="6000" data-rotate="360" data-scale="1">
+    <h1>L'industrie du Jeu Vidéo</h1>
+    <img src="img/industry_publishers.jpg" />
+  </div>
+
+  <div class="step" id="industry_product" data-x="2000" data-y="0" data-z="6000" data-rotate="360">
+    <h1>Développer un produit</h1>
+    <img src="img/industry_product.png" />
+  </div>
+
+  <div class="step" id="industry_factory" data-x="4000" data-y="0" data-z="6000" data-rotate="360">
+    <h1>Usine à produire des Jeux Vidéo</h1>
+    <p>Coût de développement:</p>
+    <ul>
+        <li>entre 20 et 30 millions en moyenne</li>
+        <li>jusqu'à 150 millions</li>
+    </ul>
+    <p>Taille des équipes:</p>
+    <ul>
+        <li>entre 100 et 200 personnes en moyenne</li>
+        <li>jusqu'à plus de 700 personnes</li>
+    </ul>
+    <p>Temps de développement:</p>
+    <ul>
+        <li>de 3 à 6 ans</li>
+    </ul>
+  </div>
+
+  <div class="step" id="industry_series" data-x="6000" data-y="0" data-z="6000" data-rotate="360">
+    <h1>Les suites de Jeux</h1>
+    <img src="img/industry_series.png" />
+  </div>
+
+  <div class="step" id="industry_casual" data-x="8000" data-y="0" data-z="6000" data-rotate="360">
+    <h1>Casual / Social games</h1>
+  </div>
+
+  <div class="step" id="jv_indie_01" data-x="8000" data-y="0" data-z="9000" data-rotate="360">
+    <h1>Jeux Vidéo Indé</h1>
+    <img src="img/jv_indie_minecraft.jpg" />
+  </div>
+
+  <div class="step" id="jv_indie_02" data-x="6000" data-y="0" data-z="9000" data-rotate="360">
+    <h1>Le Jeu Vidéo Indépendant</h1>
+    <img src="img/jv_indie_minecraft.jpg" />
+  </div>
+
+  <div class="step" id="jv_indie_03" data-x="4000" data-y="0" data-z="9000" data-rotate="360">
+    <h1>Le Jeu Vidéo Indépendant</h1>
+    <img src="img/jv_indie_minecraft.jpg" />
+  </div>
+
+  <div class="step" id="jv_indie_04" data-x="2000" data-y="0" data-z="9000" data-rotate="360">
+    <h1>Le Jeu Vidéo Indépendant</h1>
+    <img src="img/jv_indie_minecraft.jpg" />
+  </div>
+
+  <div class="step" id="jv_indie_05" data-x="0" data-y="0" data-z="9000" data-rotate="360">
+    <h1>Le Jeu Vidéo Indépendant</h1>
+    <img src="img/jv_indie_minecraft.jpg" />
+  </div>
+
+  <div class="step" id="rennes_intro" data-x="0" data-y="1500" data-z="14000" data-rotate="360">
+    <h1>Les prémisses du Jeu Vidéo indépendant rennais</h1>
+  </div>
+
+  <div class="step" id="tgpa_trailer" data-x="0" data-y="3000" data-z="14000" data-rotate="360" data-scale="1">
+    <h1>Un Jeu Indé: The Great Paper Adventure</h1>
+    <video src="vid/TGPA_trailer.mp4"></video>
+  </div>
+
+  <div class="step" id="tgpa" data-x="2000" data-y="3000" data-z="14000" data-rotate="360" data-scale="1">
+      <h1>Un Jeu Indé: The Great Paper Adventure</h1>
+      <br>
+      <br>
+      <p>L'équipe de TGPA réuni</p>
+      <p>autour du créateur Damien Mayance</p>
+      <img src="img/tgpa.png" />
+  </div>
+
+  <div class="step" id="west_indie_collective" data-x="2000" data-y="1500" data-z="14000" data-rotate="360">
+    <h1>La création du West Indie Collective</h1>
+    <img src="img/wic_logo_lagoon_v2.png" />
+  </div>
+
+  <div class="step" id="global_game_jam_trailer" data-x="4000" data-y="1500" data-z="14000" data-rotate="360">
+    <h1>Global Game Jam: créer un Jeu Vidéo en 48h</h1>
+    <video src="vid/global_game_jam_2012.mp4"></video>
+  </div>
+
+  <div class="step" id="global_game_jam_2012" data-x="6000" data-y="1500" data-z="14000" data-rotate="360">
+    <h1>Global Game Jam 2012 avec 3HitCombo</h1>
+    <br>
+    <p>Organisé par 3HitCombo au Jardin Moderne.</p>
+    <p>www.3hitcombo.fr</p>
+    <p>www.jardinmoderne.org</p>
+    <p>www.globalgamejam.org</p>
+    <img src="img/global_game_jam_2012.png" />
+  </div>
+
+  <div class="step" id="stunfest_trailer" data-x="8000" data-y="1500" data-z="14000" data-rotate="360">
+    <h1>StunFest: Rencontre avec le public</h1>
+    <video src="vid/stunfest_2012.mp4"></video>
+  </div>
+
+  <div class="step" id="the_rush_trailer" data-x="8000" data-y="3000" data-z="14000" data-rotate="360" data-scale="1">
+    <h1>Un Jeu Indé: .the rush//</h1>
+    <video src="vid/therush_beta.mp4"></video>
+  </div>
+
+  <div class="step" id="wic_new_people" data-x="8000" data-y="4500" data-z="14000" data-rotate="360">
+    <h1>Le collectif: de nouvelles rencontres</h1>
+    <img src="img/wic_new_people.png" />
+  </div>
+
+  <div class="step" id="wic_work_in_progress" data-x="6000" data-y="4500" data-z="14000" data-rotate="360">
+    <h1>Le collectif: Work In Progress</h1>
+    <img src="img/wic_work_in_progress.png" />
+  </div>
+
+  <div class="step" id="wic_future" data-x="4000" data-y="4500" data-z="14000" data-rotate="360">
+    <h1>Le collectif: A venir</h1>
+  </div>
+
+  <div class="step" id="wic_future_2" data-x="2000" data-y="4500" data-z="14000" data-rotate="360">
+    <h1>Le collectif: A venir</h1>
+  </div>
+
+  <div class="step" id="thanks" data-x="0" data-y="4500" data-z="14000" data-rotate="360">
+    <h1>Merci à tous</h1>
+    <p>www.westindiecollective.org</p>
+    <br>
+    <p>The great paper adventure par Damien Mayance, Thibault Person, Aymeric De Abreu, Matthieu Oger</p>
+    <p>www.thegreatpaperadventure.com</p>
+    <br>
+    <p>.the rush// par Cédric Guillemet</p>
+    <p>blogs.wefrag.com/skaven/</p>
+    <br>
+    <p>www.3hitcombo.fr</p>
+    <br>
+    <p>Cette présentation utilise impress.js</p>
+  </div>
+
+  <div class="step" id="end" data-x="4500" data-y="2700" data-z="14000" data-rotate="360" data-rotate-y="10"  data-scale="5">
+    <h1>Questions?</h1>
+  </div>
+
+</div>
+
+<script src="js/impress.js"></script>
+<script>impress().init();</script>
+
+</body>
+</html>
